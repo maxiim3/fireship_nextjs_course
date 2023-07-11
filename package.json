@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phntms/css-components": "^0.4.0",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -16,10 +17,18 @@
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "next": "13.4.9",
+    "next-auth": "^4.22.1",
     "postcss": "8.4.25",
+    "prettier-plugin-organize-imports": "^3.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "daisyui": "^3.2.1",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }
